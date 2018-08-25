@@ -1,0 +1,125 @@
+.icon{background-image: url(../image/all_icon.png);background-repeat: repeat;}
+
+.icon60{width: 60px;height: 60px;} 
+.icon_qrc{background-position: -60px 0px;}
+.icon_qrc:hover{background-position: 0px 0px; cursor: pointer;}
+.icon_Tback{background-position: -180px 0px;}
+.icon_Tback:hover{background-position: -120px 0px; cursor: pointer;}
+.right_icon3{background-image: url(../image/right_icon.png);background-repeat: repeat;}
+.right_icon3{background-position: -60px 0px;}
+.right_icon3:hover{background-position: 0px 0px; cursor: pointer;}
+
+.icon30{width: 30px;height: 30px;}
+.icon_weibo{background-position: -240px 0; cursor: pointer;}
+.icon_weixin{background-position: -240px -30px; cursor: pointer;}
+.icon_comment{background-position: -270px 0px;}
+.icon_love{background-position: -270px -30px;}
+.icon_small_lpage{background-position: -300px 0px;}
+.icon_small_lpage:hover{background-position: -300px -30px; cursor: pointer;}
+.icon_small_rpage{background-position: -330px 0px;}
+.icon_small_rpage:hover{background-position: -330px -30px; cursor: pointer;}
+.icon_search{background-position: -450px -30px;}
+.icon_search:hover{background-position: -450px -30px;}
+
+.icon_nav{background:url(../image/common/sf_img.png) no-repeat; display: inline-block;*display:inline;*zoom:1;}
+.icon_nav1{background-position: 0px -312px;height:50px;padding-left:82px;}
+.icon_nav2{background-position: 0px -212px;height:50px;padding-left:82px;}
+.icon_nav3{background-position: 0px -112px;height:50px;padding-left:82px;}
+.icon_nav4{background-position: 0px -362px;height:50px;padding-left:82px;}
+.icon_nav5{background-position: 0px -12px;height:50px;padding-left:82px;}
+.icon_nav6{background-position: 0px -262px;height:50px;padding-left:82px;}
+.icon_nav7{background-position: 0px -62px;height:50px;padding-left:82px;}
+.icon_nav8{background-position: 0px -162px;height:50px;padding-left:82px;}
+.icon_nav9{background-position: 0px -412px;height:50px;padding-left:82px;}
+.new{background-position: 0px 0px;height:12px;padding-left:16px;}
+
+/*
+.new{background-position: 0px 0px;height:12px;padding-left:16px;}
+.sjfx5{background-position: 0px -12px;height:50px;padding-left:82px;}
+.tc7{background-position: 0px -62px;height:50px;padding-left:82px;}
+.wdxx3{background-position: 0px -112px;height:50px;padding-left:82px;}
+.wdwz8{background-position: 0px -162px;height:50px;padding-left:82px;}
+.sfzt2{background-position: 0px -212px;height:50px;padding-left:82px;}
+.grzx6{background-position: 0px -262px;height:50px;padding-left:82px;}
+.daj1{background-position: 0px -312px;height:50px;padding-left:82px;}
+.qxgl4{background-position: 0px -362px;height:50px;padding-left:82px;}
+.more9{background-position: 0px -412px;height:50px;padding-left:82px;}
+*/
+
+.icon50{width: 50px;height: 50px;}
+.icon_big_lpage{background-position: 0 -60px;}
+.icon_big_lpage:hover{background-position: -50px -60px; cursor: pointer;}
+.icon_big_rpage{background-position: -100px -60px;}
+.icon_big_rpage:hover{background-position: -150px -60px; cursor: pointer;}
+
+.icon25{width: 25px;height: 25px;}
+.icon_picture{background-position: -200px -60px;cursor: pointer;}
+.icon_voice{background-position: -200px -85px;cursor: pointer;}
+
+.form_icon {width:30px;height:30px;}
+.form_icon{background-image:url(../image/form_icon.png);margin:5px auto;background-repeat: no-repeat;}
+.form_icon1{background-position:0px 0px;}
+.form_icon2{background-position: -30px 0px;}
+.form_icon3{background-position: -60px 0px;}
+.form_icon4{background-position: -90px 0px;}
+.form_icon5{background-position: -120px 0px;}
+.form_icon6{background-position: -150px 0px;}
+.form_icon7{background-position: -180px 0px;}
+.form_icon8{background-position: -210px 0px;}
+.form_icon9{background-position: -240px 0px;}
+.form_icon10{background-position: -270px 0px;}
+.form_icon11{background-position: -300px 0px;}
+.form_icon12{background-position: -330px 0px;}
+.form_icon13{background-position: -360px 0px;}
+
+.add_icon{width:30px;height:30px;}
+.add_icon{background-image:url(../image/add_icon.png);background-repeat: no-repeat;}
+.add_icon{background-position: 0px 0px;}
+.add_icon:hover{background-position: 0px -30px;}
+
+.keyword_icon{width: 3px;height: 30px;overflow: hidden;}
+.keyword_icon{background-image:url(../image/keyword_icon.png);background-repeat: repeat-y;}
+.leftkey_icon{background-position:0px 0px;}
+.rightkey_icon{background-position:-22px 0px;}
+
+.small_icon{background:url(../image/small.png) no-repeat;display: inline-block;*display:inline;*zoom:1;}
+.pass{background-position: 0px 0px;height:12px;padding-left:18px;}
+.low{background-position: 0px -12px;height:16px;padding-left:18px;}
+.high{background-position: 0px -28px;height:16px;padding-left:18px;}
+.search{background-position: 0px -44px;height:16px;padding-left:18px;}
+
+.calendar_icon{background-position: 0px -92px;height:17px;padding-left:22px;}
+.no_red{background-position: 0px -109px;height:20px;padding-left:22px;}
+.yes_green{background-position: 0px -129px;height:20px;padding-left:22px;}
+.edit{background-position: 0px -149px;height:20px;padding-left:22px;}
+.news_green{background-position: 0px -169px;height:25px;padding-left:27px;}
+.msg_green{background-position: 0px -194px;height:26px;padding-left:28px;}
+.tel_green{background-position: 0px -220px;height:26px;padding-left:28px;}
+
+.small_img{background:url(../image/small_bg.png) no-repeat; display: inline-block;*display:inline;*zoom:1;} 
+
+.close{background-position: 0px -60px;height:16px;padding-left:18px;}
+.close:hover{background-position: 0px -76px;height:16px;padding-left:18px;}
+
+
+.close1{background-position: 0px -344px;height:16px; width: 18px;}
+.close1:hover{background-position: 0px -328px;height:16px;}
+
+/*弹出框关闭图标-旋转 author:zhanghuihui */
+.close1{    
+	-webkit-transition: transform 0.5s;
+	-ms-transition:transform 0.5s;
+	-o-transition:transform 0.5s;
+	-moz-transition:transform 0.5s;
+	transition: transform 0.5s;
+}	
+.close1:hover {  
+  -webkit-transform: rotate(180deg); /* Chrome, Safari*/
+  -ms-transform:rotate(180deg); /* IE */
+  -o-transform:rotate(180deg); /* Opera */
+  -moz-transform:rotate(180deg);	/* firefox*/    
+  transform: rotate(180deg);
+}
+
+
+

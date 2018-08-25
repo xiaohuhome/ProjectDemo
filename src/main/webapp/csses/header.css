@@ -1,0 +1,56 @@
+.div90{width: 90%;margin: 0 auto;} 
+.div80 {width: 80%;margin: 0 auto;}
+.div95{width: 95%;}
+.div60{width: 60%;}
+.header {/*定义头部区域*/}
+.operation{/*定义按钮操作区域*/}
+.detail{/*定义详细信息区域*/}
+.breadcrumb{/*面包屑导航区定义*/}
+
+/*头部logo*/
+.header_bg{width: 100%;background: url(../images/common/top_bg.png);}
+.header .flup_logo{width: 150px;height: 80px;}
+.header .flup_logo img{width: 110px;height: 45px;margin-top: 10px;}
+/*头部导航栏主菜单*/		
+.header .nav{width: 86%;height: 90px;text-align: left;display: block;}
+.header .nav li {width: 14%;height: 92px;float: left;text-align: center;}
+.header .nav li p{padding:5px 0;}
+.header .nav a{color: #fff;text-decoration: none;display: block;blr:expression(this.onFocus=this.blur());padding-top:0;}
+.header .nav a:focus{outline: none;}
+.header .nav a:hover{cursor: pointer; font-weight: bold;}
+.header .nav a:hover{background:none;}
+/*右侧返回顶部、二维码区*/		
+.top_back{width: 6%;position: absolute;right: 0;bottom: 100px;}
+.top_back img{width: 70%;}
+
+/* 菜单选中样式 */
+.topic #nav2,
+.dossier #nav1,
+.msg #nav3,
+.data2 #nav5,
+.permission #nav4,
+.doctor #nav6 {
+	color:#3C3C3C
+}
+
+.icon_nav{background:url(../images/common/sf_img.png) no-repeat; display: inline-block;*display:inline;*zoom:1;}
+.icon_nav1{background-position: 0px -312px;height:50px;padding-left:82px;}
+.icon_nav2{background-position: 0px -212px;height:50px;padding-left:82px;}
+.icon_nav3{background-position: 0px -112px;height:50px;padding-left:82px;}
+.icon_nav4{background-position: 0px -362px;height:50px;padding-left:82px;}
+.icon_nav5{background-position: 0px -12px;height:50px;padding-left:82px;}
+.icon_nav6{background-position: 0px -262px;height:50px;padding-left:82px;}
+.icon_nav7{background-position: 0px -62px;height:50px;padding-left:82px;}
+.icon_nav8{background-position: 0px -162px;height:50px;padding-left:82px;}
+.icon_nav9{background-position: 0px -412px;height:50px;padding-left:82px;}
+.new{background-position: 0px 0px;height:12px;padding-left:16px;}
+
+/*----图片上传点击放大样式-------*/
+.bigImg {position: fixed; background-color: #414040; z-index:21474841; top:50%; left:50%; width: 1000px; height: 610px; margin-left:-500px;	margin-top:-305px;}
+.bigImg .bigger_outer {height: 535px;}
+.bigImg .bigger_content {max-width: 100%; max-height: 100%; vertical-align: middle; overflow: auto; text-align: center;}
+
+.loginbox_up a{background: url(../image/close_gray.png) no-repeat; display: inline-block; width: 24px; height: 24px;}
+.loginbox_up a:hover{background: url(../image/close_orange.png) no-repeat;}
+
+.none{display:none;}

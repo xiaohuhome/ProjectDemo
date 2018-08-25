@@ -1,0 +1,79 @@
+html {
+	font-family:sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
+}
+body,div,span,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,code,form,fieldset,legend,input,button,textarea,
+p,blockquote,th,td{margin:0; padding:0;}
+fieldset,img {border:0;}
+html,body{overflow: auto;font-size:62.5%; font-family: "Microsoft YaHei",Arial,Verdana, sans-serif;}
+body,input, button, textarea, select, optgroup, option{font:14px/1.4 "Microsoft YaHei", Arial, Verdana, sans-serif;color: #4a4a4a; background-color: #fff;}
+button,html input[type=button],input[type=reset],input[type=submit] {
+	-webkit-appearance:none;
+	cursor:pointer;
+	outline: none;
+}
+a{text-decoration:none;}
+.clearfix:after{display: block;visibility: hidden;font-size: 0;content:" ";clear: both;height: 0;}
+.clearfix{zoom:1;}
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.tc{text-align: center;}
+.pa{position: absolute;}
+.pr{position: relative;}
+.f16{font-size: 16px;font-size: 1.6rem;}
+.f24{font-size: 24px;font-size: 2.4rem;}
+.f20{font-size: 20px;font-size: 2.0rem;}
+.f22{font-size: 22px;font-size: 2.2rem;}
+.pl2{padding-left: 2%;}
+.mt10{margin-top: 10px;}
+.mt50{margin-top: 50px;}
+.p10{padding: 10px;}
+.pt20{padding-top: 20px;}
+.pw28{width: 28%;}
+.font_blue{color: #70b2fd;}
+.font_gray{color: #9b9b9b;}
+/*血压各个阶段字体的颜色*/
+.font_yellow1{color: #fff302;}
+.font_yellow2{color: #ffca0d;}
+.font_blue1{color: #23b04d;}
+.font_blue2{color: #b6e61b;}
+.font_red1{color: #ef1b24;}
+.font_red2{color: #ff7f26;}
+.bg_yellow1{background-color: #fff302;}
+.bg_yellow2{background-color: #ffca0d;}
+.bg_blue1{background-color: #23b04d;}
+.bg_blue2{background-color: #b6e61b;}
+.bg_red1{background-color: #ef1b24;}
+.bg_red2{background-color: #ff7f26;}
+
+.border_bot{border-bottom: 1px solid #e6e6e6;}
+.gauge{background: white;border: 1px solid #E6E6E6;padding: 0 2%;}
+.gauge>div{height: 50px;line-height: 50px;font-size: 16px;font-size: 1.6rem;color: #4a4a4a;}
+.input_date{-webkit-appearance: none;margin-top:2px;width: 76%;border: none;height: 33px;padding-top: 12px;padding-right: 13px;color: #70b2fd;font-size: 16px;font-size: 1.6rem;background:url(../img/opt.png) no-repeat right 21px;text-align: right;}
+.input_velue{border: none;height: 48px;color: #71b3ff;font-size: 16px;font-size: 1.6rem;width: 78%;text-align: right;}
+.input_date:focus,.input_velue:focus{outline: none;}
+.xueya{line-height: 40px;margin-left: 10px;color: #9b9b9b;}
+.save{text-align: center;}
+.save{background-color: #70B2FD;display: block;color: white;text-align: center;border-radius: 4px;height:40px;line-height:40px;margin-top: 60px;width: 80%;margin-left:auto;margin-right: auto;}
+.point{width: 15px;height: 15px;border-radius: 50%;margin-right: 10px;margin-top: 2px;}
+.external{background: url(../image/blood.png)no-repeat;background-size: contain;width: 160px;height: 160px;padding-top: 15px;margin: 0 auto;}
+.inside{background: url(../image/120_degree.png)no-repeat;width: 130px;height: 130px;background-size: contain;margin: auto;color: white;text-align: center;padding-top: 39px;font-size: 18px;font-size: 1.8rem;}
+
+.inside_0{background: url(../image/0_degree.png)no-repeat;width: 130px;height: 130px;background-size: contain;margin: auto;color: white;text-align: center;padding-top: 39px;font-size: 18px;font-size: 1.8rem;}
+.inside_60{background: url(../image/60_degree.png)no-repeat;width: 148px;height: 148px;background-size: contain;margin: auto;color: white;text-align: center;padding-top: 39px;font-size: 18px;font-size: 1.8rem;}
+.inside_120{background: url(../image/120_degree.png)no-repeat;width: 130px;height: 130px;background-size: contain;margin: auto;color: white;text-align: center;padding-top: 39px;font-size: 18px;font-size: 1.8rem;}
+.inside_180{background: url(../image/180_degree.png)no-repeat;width: 130px;height: 130px;background-size: contain;margin: auto;color: white;text-align: center;padding-top: 39px;font-size: 18px;font-size: 1.8rem;}
+.inside_240{background: url(../image/240_degree.png)no-repeat;width: 148px;height: 148px;background-size: contain;margin: auto;color: white;text-align: center;padding-top: 39px;font-size: 18px;font-size: 1.8rem;}
+.inside_300{background: url(../image/300_degree.png)no-repeat;width: 130px;height: 130px;background-size: contain;margin: auto;color: white;text-align: center;padding-top: 39px;font-size: 18px;font-size: 1.8rem;}
+
+.border_gray{border: 1px solid #e6e6e6;padding:10px 20px;margin-top: -1px;}
+.result_wei{width: 170px;height: 110px;border-radius: 50%;background-color: #34C6B5;margin: auto;margin-top: 30px;color: white;text-align: center;padding-top: 60px;font-size: 22px;font-size: 2.2rem;margin-bottom: 20px;}
+.bpcaption{background: url(../image/blood_pre.png)no-repeat center;width: 100%;height: 300px;background-size: contain;}
+.bg_gray{background-color: #F7F7F7;height: 10px;border: 1px solid #D8D8D8;}
+
+
+.input_date_2{width: 80%;height:100%;padding-left:3px;border: none;color: #70b2fd;font-size: 16px;font-size: 1.6rem;background:none;text-align: left;}
+.input_date_span{width: 78%;border: none;height: 33px;}
+.none{diaplay:none;}

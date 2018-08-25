@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.a_btn_green_dossier {
+	background-color: #31ad42;
+	color: #fff;
+	blr: expression(this.onFocus =  this.blur ());
+	border-radius: 2px;
+}
+
+.a_btn_green_dossier:hover {
+	background-color: #31ad42;
+	color: #fff;
+	text-decoration: none;
+}
+
+.search_input::-webkit-input-placeholder { /* WebKit browsers */
+	color: #b5b5b5;
+}
+
+.search_input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #b5b5b5;
+}
+
+.search_input::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #b5b5b5;
+}
+
+.search_input:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color: #b5b5b5;
+}
+
+.select_dossier_css {
+	border: 1px solid #e2e5ee;
+	background-color: #f7f9ff;
+	height: 31px;
+	color: #31ab42;
+	margin-right: 2px;
+	padding: 5px 5px 4px;
+}
+
+.selectTr {background-color: #E4F9E6;}

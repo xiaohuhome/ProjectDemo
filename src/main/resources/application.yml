@@ -1,0 +1,50 @@
+spring:
+  profiles:
+    include: devdb
+  mvc:
+    view:
+      prefix: /WEB-INF
+      suffix: .jsp
+  devtools: 
+    restart: 
+      enabled: true
+      additional-paths: src/main/java
+      exclude: static/**,public/**,WEB-INF/**
+ 
+server: 
+  port: 8080
+  servlet:
+    session:
+      timeout: 10 
+      cookie.max-age: 60 
+    context-path: /demo
+   
+  tomcat: 
+    max-threads: 800
+    uri-encoding: UTF-8
+    
+upload:
+  bathPath :
+  fileUrlForProgram : 
+  contentTypeMap:
+    BMP : I
+    PNG : I
+    JPEG : I
+    JPG : I
+    GIF : I
+    AVI : V
+    MOV : V
+    ASF : V
+    WMV : V
+    3GP : V
+    MKV : V
+    FLV : V
+    RM : V
+    MP4 : V
+    RMVB : V
+    WAV : A
+    MP3 : A
+    WMA : A
+    APE : A
+    ACC : A
+    PDF : P

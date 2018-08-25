@@ -1,0 +1,18 @@
+body{color: #4A4A4A;}
+a:hover{text-decoration:none;}
+.zhuanti a{display: block;border-left: 4px solid white;color: #4A4A4A;padding: 12px 15px;position: relative;font-size: 16px;margin-top: 1px;}
+.zhuanti a:hover,.zhuanti a.active,.zhuanti a:focus{border-left: 4px solid #FFA571;color: #FFA571;}
+.zhuanti a span{position: absolute;left:0px;top: 20px;border: 4px solid white;}
+.zhuanti a:hover span,.zhuanti a.active span,.zhuanti a:focus span{border-left: 4px solid #FFA571;}
+.r_chaxun{line-height:45px;font-size:16px;color:#FFA571;width:100%;border-top:1px solid #FFA571;border-bottom:1px solid #FFA571;}
+.r_chaxun input[type="checkbox"],.table_biaodan input[type="checkbox"]{height:16px;width: 16px;vertical-align:middle;cursor:pointer;}
+.r_chaxun a{padding:0px 30px;display:inline-block;background:#FFA571;color:white;text-align:center;border-radius: 3px;}
+.table_biaodan{width:100%;}
+.table_biaodan td{border-bottom:1px solid #ECECEC;padding: 14px 0;}
+.table_biaodan tr.active{background: #F0F1F5;}
+.table_baocun{margin:50px 0;border-bottom: 1px solid #F0F1F5;}
+.table_baocun th{font-weight: initial;background: #919DB8;color: white;font-size: 16px;width: 22%;padding: 10px 10px;text-align: left;}
+.table_baocun td{width: 22%;padding: 10px 10px;}
+.table_baocun td a{color: #FFA571;font-size: 16px;}
+.table_baocun td a:hover{text-decoration:underline;}
+.table_baocun tr:hover{background:#F0F1F5;}

@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.bg_outer {
+	width: 662px;
+	height: 340px;
+	background-image: url("../../image/estimate/inspection.png");
+}
+
+.bg {
+	border: 0px solid blue; 
+	width: 550px; 
+	position: relative;
+}
+
+.bg_0 {
+	width: 48px; 
+	padding-left: 5px; 
+	font-size: 14px; 
+	color: #3A5300;
+}
+
+.bg_0_zn {
+	width: 65px; 
+	padding-left: 5px; 
+	font-size: 14px; 
+	color: #3A5300;
+}
+	
+.bg_1 {
+	width: 16px;
+	height: 16px;
+	background-image: url("../../image/estimate/round.gif");
+	position: absolute;
+}
+
+.bg_2 {
+	float: left; 
+	width: 62px; 
+	height: 20px;
+	padding-top: 7px;
+	text-align: right;
+	color: #5B3434;
+}
+
+.bg_img1 {
+	width: 16px;
+	height: 16px;
+	background-image: url("../../image/estimate/round.gif");	
+}

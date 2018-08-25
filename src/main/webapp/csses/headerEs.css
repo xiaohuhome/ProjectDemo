@@ -1,0 +1,85 @@
+/*最外层容器*/
+.outer_container{width: 1100px;margin-left: auto;margin-right: auto;}
+/*下拉选择*/
+.sel-div {
+	padding: 0px!important;
+    background: #fff;width: 89px;
+}
+.sel-con {
+	cursor:pointer;
+	height:30px;
+	line-height:30px;
+	padding:0px 10px;
+}
+.select-down-black {
+	width:10px;
+	height:10px;
+	background: url(../img/opt.png) no-repeat;
+}
+.sel-ul {
+	width:100%;
+	position:absolute;
+	border-top:0px;
+	top:29px;
+	left:0px;
+	border:1px solid #d5d1cc;
+	background-color:#fff;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;color: #333;font-weight: initial;
+}
+.sel-ul li {
+	display:block;
+	cursor:pointer;
+	padding:5px 10px;
+}
+.sel-ul li:hover {
+	background-color:#68a5df;color: #fff;
+}
+/*顶部导航*/
+.navigation{height: 55px;padding-top: 10px;border-bottom: 1px solid #e8e8e8;}
+.nav_ln{margin-left: 40px;margin-top: 5px;}
+.nav_ln a{font-size: 16px;color:#a29f9f;;vertical-align: middle;display: inline-block;cursor: pointer;font-weight: bold;margin-right: 35px;}
+.nav_ln a:hover,.nav_ln a:focus,.nav_ln a.active{color: #3C3C3C;text-decoration: none;}
+.nav_ln a img{margin-right: 6px;vertical-align: middle;}
+.nav_ln a span{vertical-align: middle;}
+.nav_ln a:last-child{margin-right: 0px;}
+.news_ln{width: 28px;height: 25px;background: url(../img/news.png)no-repeat;display: inline-block;float: left;margin-top:6px;cursor: pointer;margin-right: 5px;}
+.news_ln>img{position: absolute;top: -2px;right: 3px}
+.message_ln{float:right;}
+.message_ln .searchxm_ln img{margin-right: 6px;}
+.arrow_nav{position: absolute;border-bottom: 4px solid #68a5df;border-right: 4px solid #68a5df;top: 14px;left: 14px;border-top: 4px solid transparent;border-left: 4px solid transparent;display: inline-block;height:0;}
+.news_ul{position: absolute;border: 1px solid #68a5df;top: 25px;left:-20px;color: #3C3C3C;width: 105px;background: #fff;display: none;}
+.news_ul li{display: block;cursor: pointer;padding: 5px 10px;border-bottom: 1px solid #e8e8e8;}
+.news_ul li:hover{background: #e8e8e8;}
+.news_ln:hover .news_ul{display: block;}
+.logout_ln{color:#fe7f62;border-top: 1px solid #d5d1cc;font-weight: bold;}
+.searchxm_ln{border-radius: 4px;width: 125px;float: left;border:none;}
+/* .icon_nav{background:url(../images/common/sf_img.png) no-repeat; display: inline-block;*display:inline;*zoom:1;}*/
+.icon_nav{background:url(../images/news/news_bj.png) no-repeat; display: inline-block;*display:inline;*zoom:1;}
+.new{background-position: 0px 0px;height:12px;padding-left:16px;}
+
+/* 导航小图标 */
+.nav3{background:url(../images/common/allbgs.png) no-repeat 0px 0px;height:21px;padding-left:24px;float: left;margin-right: 5px;margin-top: 3px;}
+.nav5{background:url(../images/common/allbgs.png) no-repeat 0px -21px;height:21px;padding-left:24px;float: left;margin-right: 5px;}
+.renwu{background:url(../images/common/allbgs.png) no-repeat 0px -42px;height:22px;padding-left:24px;float: left;margin-right: 5px;}
+.nav6{background:url(../images/common/center.png) no-repeat;height:22px;width: 25px;float: left;margin-right: 5px;margin-top: 2px;padding:0;}
+.yisbr{background:url(../images/common/allbgs.png) no-repeat 0px -86px;height:22px;padding-left:24px;float: left;margin-right: 5px;}
+.team{background:url(../images/common/allbgs.png) no-repeat 0px -108px;height:22px;padding-left:24px;float: left;margin-right: 5px;}
+.jiaohu{background:url(../images/common/allbgs.png) no-repeat 0px -130px;height:22px;padding-left:24px;float: left;margin-right: 5px;}
+.quit{background:url(../images/common/allbgs.png) no-repeat 0px -152px;height:22px;padding-left:25px;float: left;margin-right: 5px;}
+.lianm{background:url(../images/common/allbgs.png) no-repeat 0px -174px;height:22px;padding-left:24px;float: left;margin-right: 5px;}
+.nav2{background:url(../images/common/allbgs.png) no-repeat 0px -196px;height:22px;padding-left:24px;float: left;margin-right: 5px;}
+.nav1{background:url(../images/common/allbgs.png) no-repeat 0px -218px;height:24px;padding-left:24px;float: left;margin-right: 5px;}
+.nav4{background:url(../images/common/allbgs.png) no-repeat 0px -242px;height:24px;padding-left:24px;float: left;margin-right: 5px;}
+/* 菜单选中样式 */
+.topic #nav2,
+.dossier #nav1,
+.msg #nav3,
+.data2 #nav5,
+.permission #nav4,
+.doctor #nav6 {
+	color:#3C3C3C
+}
+.logo_name{margin-left:-15px;float: left;}
+.logo_name p{color:#68a5df;font-size: 16px;font-weight: bold;margin-left: 3px;margin-top: 6px;}

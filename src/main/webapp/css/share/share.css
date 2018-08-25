@@ -1,0 +1,18 @@
+.bds_weixin{
+	background-image:url(../../image/all_icon.png);
+	background-repeat:no-repeat;
+	background-position:-240px -30px;
+	cursor:pointer;
+	padding-left: 30px;
+	padding-bottom:30px;
+	margin-right:10px;
+}
+.bds_tsina{
+	background-image:url(../../image/all_icon.png);
+	background-repeat:no-repeat;
+	background-position:-240px 0px;
+	cursor:pointer;
+	padding-left: 30px;
+	padding-bottom:30px;
+	margin-right:10px;
+}
